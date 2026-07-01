@@ -36,7 +36,7 @@ nav {
    justify-content: space-between;
    align-items: center;
    padding: 0 8rem;
-   height: 64px;
+   height: 10vh;
    
 
 }
@@ -51,6 +51,9 @@ nav {
     color: white;
 }
 
+.logo_color{
+    color: gold;
+}
 .nav_links{
     display: flex;
     gap: 3rem;
@@ -58,7 +61,7 @@ nav {
 
 .hero_section{
     display: flex;
-    height: 60vh;
+    height: 90vh;
     background-image: url("../assets/time-travel-hero.jpg");
       background-size: cover;
   background-repeat: no-repeat;
@@ -86,15 +89,21 @@ nav {
 
 }
 
+.hero_paragraph{
+    line-height: 23px;
+}
+
 .button{
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: flex-start;
 
+
 }
 
 .cta_btn{
     padding: 1rem 1rem;
     background-color: gold;
+    font-weight: 600;
 }
