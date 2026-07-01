@@ -74,6 +74,7 @@ nav {
     height: 100%; 
     padding: 8rem;
     gap: 1rem;
+    max-width: 50%;
 }
 
 .hero_text{
@@ -83,4 +84,17 @@ nav {
     color: white;
     
 
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+
+}
+
+.cta_btn{
+    padding: 1rem 1rem;
+    background-color: gold;
 }
