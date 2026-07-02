@@ -107,3 +107,34 @@ nav {
     background-color: gold;
     font-weight: 600;
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    gap:20px
+    
+}
+
+.about_text{
+    flex:1;
+    height: 60vh;
+    padding:3rem 8rem;
+    width: 100%;
+    align-content: center;
+    ;
+    
+
+}
+
+.about_left{
+  flex: 1;
+    height: 60vh;
+    padding:3rem 8rem;
+    max-width: 50%;
+    
+    
+}
+
+.about_photo{
+max-width: 100%;
+}
